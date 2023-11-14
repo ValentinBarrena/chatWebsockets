@@ -1,0 +1,14 @@
+
+<div>
+    <h1>Plantilla activa: CHAT</h1>
+
+    <input type="text" name="message" id="message" placeholder="mensajito" style="width: 260px;">
+
+    <button onclick="sendMessage()">Enviar</button>
+
+    <p id="received_messages"></p>
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.all.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/js/chat.js"></script>
